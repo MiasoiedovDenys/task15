@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#wrapper {
+  position: relative;
+  overflow-x: hidden;
+  background-color: #323264;
+  background: linear-gradient(to left bottom, #323264, #323264, #643E72);
+  font-family: TT Norms;
+}
+
+.content {
+  margin: 0 20px;
+}
+
+@media (min-width: 1440px) {
+  .content {
+    width: calc(100% - 120px);
+    height: 100vh;
+    margin: 0 60px;
+  }
+}
+
+.servicesHeader {
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1440px) {
+  .servicesHeader {
+    margin: 0 0 68px;
+  }
+}
+
+.servicesHeader li {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.servicesHeader a {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.servicesHeader a:hover {
+  background: #FFFFFF;
+  color: #323264;
+  transition: color 2s ease;
+  -webkit-transition: color 2s ease;
+  -moz-transition: color 2s ease;
+  -ms-transition: color 2s ease;
+  -o-transition: color 2s ease;
+}
+
+.servicesHeader h2 {
+  width: calc(100% - 40px);
+  min-height: 76px;
+  font-size: 32px;
+  line-height: 37px;
+  color: black;
+  background-clip: text;
+  background: linear-gradient(45deg, #F0145A, #EF8080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1440px) {
+  .servicesHeader h2 {
+    font-size: 42px;
+    min-height: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .servicesBlock .servicesBlockLine1, .servicesBlock .servicesBlockLine2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.servicesBlockColumn {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1440px) {
+  .servicesBlockColumn {
+    width: 413px;
+  }
+}
+
+.servicesBlockColumnIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1440px) {
+  .servicesBlockColumnIcon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+h4 {
+  width: calc(100% - 114px);
+  color: #24A3FF;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@media (min-width: 1440px) {
+  h4 {
+    margin-left: 0;
+    width: auto;
+    margin-bottom: 15px;
+  }
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (min-width: 1440px) {
+  p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+picture {
+  display: flex;
+  background-color: white;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  width: 64px;
+  height: 64px;
+}
+
+@media (min-width: 1440px) {
+  picture {
+    width: 92px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 20px;
+  }
+}
+
+picture img {
+  padding: 10px;
+}
+
+@media (min-width: 1440px) {
+  picture img {
+    width: 64px;
+    height: 64px;
+    padding: 0;
+  }
+}
