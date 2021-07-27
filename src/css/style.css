@@ -83,28 +83,20 @@ select {
   }
 }
 
-.servicesHeader li {
+.servicesHeader a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  opacity: 0.5;
   margin-bottom: 3px;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 1px;
 }
 
-.servicesHeader a {
-  text-decoration: none;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  opacity: 0.5;
-}
-
 .servicesHeader a:hover {
-  background: #FFFFFF;
+  background: white;
   color: #323264;
-  transition: color 2s ease;
-  -webkit-transition: color 2s ease;
-  -moz-transition: color 2s ease;
-  -ms-transition: color 2s ease;
-  -o-transition: color 2s ease;
 }
 
 .servicesHeader h2 {
@@ -127,7 +119,7 @@ select {
 }
 
 @media (min-width: 1440px) {
-  .servicesBlock .servicesBlockLine1, .servicesBlock .servicesBlockLine2 {
+  .servicesBlock .servicesBlockLine {
     display: flex;
     justify-content: space-between;
   }
@@ -140,7 +132,7 @@ select {
 
 @media (min-width: 1440px) {
   .servicesBlockColumn {
-    width: 413px;
+    max-width: 413px;
   }
 }
 
